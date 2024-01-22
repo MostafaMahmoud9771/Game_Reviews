@@ -1,0 +1,106 @@
+/* ======= */
+/* General */
+/* ======= */
+body {
+  font-family: "Nerko One", cursive;
+  background-color: rgb(50, 53, 58);
+}
+/* 
+
+
+
+
+
+*/
+/* ====== */
+/* Navbar */
+/* ====== */
+.nav-bar-section {
+  background-image: url("../Imgs/wraper.png");
+  background-size: cover;
+  background-position: center;
+  height: 25vh;
+}
+
+nav {
+  transform: translateY(50%);
+  z-index: 1000;
+}
+
+.nav-bar-color {
+  background-color: #3a497b;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #4a95c7 !important;
+  transition: 0.3s;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #4a95c7 !important;
+}
+/* 
+
+
+
+
+
+*/
+/* ==== */
+/* Home */
+/* ==== */
+.card {
+  background-color: rgb(50, 53, 58);
+  transition: 0.5s;
+}
+
+.card img {
+  filter: grayscale(1);
+  transition: 0.5s;
+}
+
+.card .status-mark {
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card:hover .status-mark {
+  background-color: #3c6efd !important;
+}
+
+.card:hover img {
+  filter: none;
+}
+
+.loading-screen {
+  z-index: 2000;
+}
+/* 
+
+
+
+
+
+*/
+
+/* ======= */
+/* Details */
+/* ======= */
+.detailes-section {
+  background-color: rgb(50, 53, 58);
+  z-index: 2000;
+}
+
+.close-mark {
+  top: 40px;
+  right: 0px;
+  transition: 0.3s;
+}
+
+.close-mark:hover {
+  cursor: pointer;
+}

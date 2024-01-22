@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body class="position-relative">
+    <!-- ====== -->
+    <!-- Navbar -->
+    <!-- ====== -->
+    <section
+      class="nav-bar-section d-flex align-items-end justify-content-center mb-5"
+    >
+      <nav
+        class="nav-bar-color navbar navbar-expand-lg w-75 rounded-4 position-fixed shadow-lg"
+      >
+        <div class="container-fluid text-white">
+          <div class="d-flex align-items-center">
+            <img src="./Imgs/logo-sm.png" width="50px" height="50px" />
+            <h1 class="fs-3 m-0 ms-2">GAME REVIEWS</h1>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white fs-6 active"
+                  aria-current="page"
+                  href="#"
+                  >MMORPG</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-6" href="#">SHOOTER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-6" href="#">SAILING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-6" href="#">PERMADEATH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-6" href="#">SUPERHERO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fs-6" href="#">PIXEL</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- ==== -->
+    <!-- Home -->
+    <!-- ==== -->
+    <section class="pt-5">
+      <div class="cards-container container mx-auto row gy-4"></div>
+    </section>
+    <section
+      class="loading-screen d-flex justify-content-center align-items-center position-absolute top-0 buttom-0 start-0 end-0 min-vh-100 bg-opacity-50 bg-dark d-none"
+    >
+      <i class="fa-solid fa-sync fa-spin fs-1 text-white"></i>
+    </section>
+
+    <!-- ======= -->
+    <!-- Details -->
+    <!-- ======= -->
+    <section
+      class="position-absolute py-5 top-0 buttom-0 start-0 end-0 detailes-section min-vh-100 d-none"
+    >
+      <div class="container text-white overflow-hidden position-relative">
+        <div class="close-mark position-absolute">
+          <i class="fa-solid fa-xmark fs-3"></i>
+        </div>
+        <h2 class="mb-4 fs-1">Details Game</h2>
+        <div class="row details-row"></div>
+      </div>
+    </section>
+
+    <script src="./Scripts/all.min.js"></script>
+    <script src="./Scripts/bootstrap.bundle.min.js"></script>
+    <script src="./Scripts/jquery-3.7.1.min.js"></script>
+    <script src="./Scripts/main.js"></script>
+  </body>
+</html>
